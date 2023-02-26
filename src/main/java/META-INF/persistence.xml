@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="DA1-TTXUONG">
+		<class>com.poly.xuongthuchanh.entity.Bookmark</class>
+		<class>com.poly.xuongthuchanh.entity.Comment</class>
+		<class>com.poly.xuongthuchanh.entity.FailedJob</class>
+		<class>com.poly.xuongthuchanh.entity.File</class>
+		<class>com.poly.xuongthuchanh.entity.Level</class>
+		<class>com.poly.xuongthuchanh.entity.MailNotification</class>
+		<class>com.poly.xuongthuchanh.entity.Major</class>
+		<class>com.poly.xuongthuchanh.entity.Migration</class>
+		<class>com.poly.xuongthuchanh.entity.ModelHasPermission</class>
+		<class>com.poly.xuongthuchanh.entity.ModelHasPermissionPK</class>
+		<class>com.poly.xuongthuchanh.entity.ModelHasRole</class>
+		<class>com.poly.xuongthuchanh.entity.ModelHasRolePK</class>
+		<class>com.poly.xuongthuchanh.entity.Notification</class>
+		<class>com.poly.xuongthuchanh.entity.Permission</class>
+		<class>com.poly.xuongthuchanh.entity.PersonalAccessToken</class>
+		<class>com.poly.xuongthuchanh.entity.Project</class>
+		<class>com.poly.xuongthuchanh.entity.Role</class>
+		<class>com.poly.xuongthuchanh.entity.Type</class>
+		<class>com.poly.xuongthuchanh.entity.UserHasProject</class>
+		<class>com.poly.xuongthuchanh.entity.UserHasWorkProduct</class>
+		<class>com.poly.xuongthuchanh.entity.User</class>
+		<class>com.poly.xuongthuchanh.entity.WorkProduct</class>
+		<class>com.poly.xuongthuchanh.entity.WorkProductEvent</class>
+		<class>com.poly.xuongthuchanh.entity.WorkProductPriority</class>
+		<class>com.poly.xuongthuchanh.entity.WorkProductStatus</class>
+		<class>com.poly.xuongthuchanh.entity.Workshop</class>
+	</persistence-unit>
+</persistence>
